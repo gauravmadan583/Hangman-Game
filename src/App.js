@@ -45,7 +45,7 @@ function App() {
 			console.log(rightLetters);
 		}
 
-		if (wrongLetters.length === 5) {
+		if (wrongLetters.length === 6) {
 			setPlayable(false);
 			setShowNotification(true);
 			setError('Game lost!');
